@@ -2,16 +2,10 @@
 
 [![Join the chat at https://gitter.im/start-angular/sb-admin-angular](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/start-angular/sb-admin-angular?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-This project is a port of the famous Free Admin Bootstrap Theme [SB Admin v2.0](http://startbootstrap.com/template-overviews/sb-admin-2/) to Angular Theme.
-
-Find out more [Free Angular Themes at StartAngular.com](http://www.startangular.com/).
 
 ## Installation
 ####1. Clone this project or Download that ZIP file
 
-```sh
-$ git clone https://github.com/start-angular/sb-admin-angular.git
-```
 
 ####2.  Make sure you have [bower](http://bower.io/), [grunt-cli](https://www.npmjs.com/package/grunt-cli) and  [npm](https://www.npmjs.org/) installed globally
  
@@ -52,11 +46,9 @@ changing ownner .config
 sudo chown -R [user name] ~/.config
 ```
 
+There might still be some issue with the loading of the graphs in page Dashboard and Tracks Page List section.
+Please reload a couple of times if You are not rendered with charts.
 
-## Roadmap
+The Tracks Page list is just placed there temporarily for convenience. 
+localhost:9000/#/dashboard/chart?trackid=sometrackid will retrieve the graph for you(else you will keep running into an errors page)
 
-- Add sample AJAX calls and make the directives more modular
-
-### Automation tools
-
-- [Grunt](http://gruntjs.com/)
